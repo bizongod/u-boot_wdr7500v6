@@ -1,0 +1,25 @@
+#define CONFIG_ATHEROS		1
+#define CONFIG_MACH_QCA956x	1
+#define CFG_INIT_STACK_IN_SRAM	1
+#define CONFIG_AP152	1
+#define __CONFIG_BOARD_NAME ap152
+#define CONFIG_BOARD_NAME "ap152"
+#define CFG_PLL_FREQ		CFG_PLL_775_650_258
+#define CFG_DDR2_DRAGONFLY_CAS_LATENCY		5
+#define CFG_ATH_GMAC_NMACS	1
+#define CFG_ATH_GE1_IS_CONNECTED 1
+#define CONFIG_ATHRS_GMAC_SGMII  1
+#define ATH_S17_MAC0_SGMII	1
+#define UART_RX18_TX22           1
+#define CONFIG_ATHRS_GMAC_SGMII	1
+#define CONFIG_ATHRS17_PHY	1
+#define ATH_SGMII_FORCED_MODE    1
+#define FLASH_SIZE	16
+#define FW_RECOVERY 1
+#define FW_RECOVERY_DEV "wr1043ndv4"
+#define FW_RECOVERY_INPUT_BUTTON_GPIO 2
+#define FW_RECOVERY_OUTPUT_LED_GPIO 1
+#define FW_RECOVERY_OUTPUT_LED_ON 0
+
+/* Automatically generated - do not edit */
+#include <configs/board956x.h>
