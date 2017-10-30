@@ -1,3 +1,15 @@
+U-boot for WDR7500 V6
+
+Flashed using programmer
+
+Flash layout for LEDE:
+- 192kB - U-boot
+-  64kB - env
+-  rest - LEDE
+-  64kB - art (last 64kB block, moved from address 0x1e000-0x20000 from original flash 
+
+
+
 #
 # (C) Copyright 2000 - 2005
 # Wolfgang Denk, DENX Software Engineering, wd@denx.de.
